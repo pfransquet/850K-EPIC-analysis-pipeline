@@ -1,4 +1,4 @@
-#################################################### Version 4.0 - 04/OCT/2021 ####################################################
+#################################################### Version 4.1 - 14/NOV/2022 ####################################################
 ## Analysis Pipeline for Illumina EPIC (850K) Methylation Array
 ## This is based off 450k pipeline by Jovana Maksimovic*, Belinda Phipson and Alicia Oshlack
 ## https://www.bioconductor.org/packages/release/workflows/vignettes/methylationArrayAnalysis/inst/doc/methylationArrayAnalysis.html
