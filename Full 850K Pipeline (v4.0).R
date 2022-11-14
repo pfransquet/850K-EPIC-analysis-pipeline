@@ -815,6 +815,12 @@ View(AllProbes)
 ## If you have a small data set (~80 samples or so) you can just continue on, save the "Allprobes" and this will be the "Methylation Data File" needed to upload to the clock website
 write.csv(AllProbes, file = "betas.csv",row.names = FALSE)
 
+
+
+### NOTE: I ORIGINALLY SPLIT MY DATA AS BELOW, BUT AS YOU ARE RUNNING DATA BASED ON THE WHOLE SET IT IS BETTER TO KEEP IT TOGETHER
+### THE BETA's ACTUALLY 'ZIP" QUITE WELL TOGETHER, SO I JUST SUGGEST ZIPPING IT AND IF IT IS <800MB YOU ARE ALL GOOD!!
+
+
 ## However, the online clock calculator wants beta files to be <800MB so might need to split it up depending on size, in my case need to do in 4 batches (I have 260 samples) because once compile total file size is 1.4GB 
 ## Remember the probe ID is in the first place so need that in both files, it is tricky so just make sure the beta files line up with the annotation files you make below
 ## Again you might not need to do this, this is just and example of what i had to do.
